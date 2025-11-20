@@ -34,3 +34,11 @@ body {
   background: var(--bg);
   border-bottom: 1px solid var(--card);
 }
+
+.nav a { color: var(--muted); margin-right: 1rem; text-decoration: none; }
+.nav a:hover { color: var(--accent); }
+.logo { font-weight: 800; color: var(--accent); }
+
+#theme-toggle {
+  background: none;
+  border: none;
