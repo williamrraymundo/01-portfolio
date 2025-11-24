@@ -49,3 +49,9 @@ body {
 main { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
 section { padding: 4rem 0; }
 h2 { margin-bottom: 1rem; }
+
+.hero { text-align: center; padding: 7rem 0; }
+.hero h1 { font-size: clamp(2rem, 6vw, 3.5rem); }
+.accent { color: var(--accent); }
+
+.btn {
