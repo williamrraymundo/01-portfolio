@@ -63,3 +63,9 @@ h2 { margin-bottom: 1rem; }
   border: none;
   border-radius: 8px;
   text-decoration: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.skills { display: flex; gap: 0.6rem; flex-wrap: wrap; list-style: none; margin-top: 1rem; }
+.skills li { background: var(--card); padding: 0.3rem 0.8rem; border-radius: 999px; }
