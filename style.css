@@ -81,3 +81,7 @@ input, textarea {
   padding: 0.7rem;
   border-radius: 8px;
   border: 1px solid var(--muted);
+  background: var(--card);
+  color: var(--text);
+  font: inherit;
+}
