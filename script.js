@@ -6,3 +6,9 @@ const projects = [
   { name: "Claude Chatbot", description: "Terminal chatbot using the Claude API.", url: "https://github.com/williamrraymundo/20-claude-chatbot" },
 ];
 
+function renderProjects() {
+  const grid = document.getElementById("project-grid");
+  grid.innerHTML = projects
+    .map(
+      (p) => `
+      <article class="card">
