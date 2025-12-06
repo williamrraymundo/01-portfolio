@@ -12,3 +12,11 @@ function renderProjects() {
     .map(
       (p) => `
       <article class="card">
+        <h3>${p.name}</h3>
+        <p>${p.description}</p>
+        <a href="${p.url}" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>`
+    )
+    .join("");
+}
+
