@@ -37,3 +37,7 @@ function setupTheme() {
 function setupForm() {
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const name = document.getElementById("name").value.trim();
+    status.textContent = `Thanks, ${name}! Your message was recorded locally.`;
