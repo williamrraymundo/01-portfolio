@@ -20,3 +20,7 @@ function renderProjects() {
     .join("");
 }
 
+function setupTheme() {
+  const toggle = document.getElementById("theme-toggle");
+  const saved = localStorage.getItem("theme") || "dark";
+  document.documentElement.dataset.theme = saved;
