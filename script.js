@@ -41,3 +41,10 @@ function setupForm() {
     event.preventDefault();
     const name = document.getElementById("name").value.trim();
     status.textContent = `Thanks, ${name}! Your message was recorded locally.`;
+    form.reset();
+  });
+}
+
+document.getElementById("year").textContent = new Date().getFullYear();
+renderProjects();
+setupTheme();
