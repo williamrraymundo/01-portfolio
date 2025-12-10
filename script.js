@@ -48,3 +48,4 @@ function setupForm() {
 document.getElementById("year").textContent = new Date().getFullYear();
 renderProjects();
 setupTheme();
+setupForm();
