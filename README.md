@@ -16,3 +16,7 @@ HTML5, CSS3, JavaScript
 ## Getting started
 
 Open `index.html` in your browser (no build step needed).
+
+## License
+
+MIT © William Raymundo
